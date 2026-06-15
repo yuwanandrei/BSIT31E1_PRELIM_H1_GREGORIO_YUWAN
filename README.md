@@ -1,12 +1,4 @@
-
-# 🧪 Assignment #1 
-## “Student Management System – Procedural Core”
-
----
-
-# 📌 REQUIRED OUTPUT
-
-The system must produce the same behavior:
+## Menu
 
 ```text
 ===== STUDENT SYSTEM =====
@@ -21,51 +13,69 @@ Choose an option:
 
 ---
 
-## ➕ Add Student Flow
+## Add Student
 
 ```text
-Enter student name:
-Enter grade 1:
-Enter grade 2:
-Enter grade 3:
+Add Student
+Enter student name: Yuwan Andrei Gregorio
+
+Enter grade 1: 99
+
+Enter grade 2: 98
+
+Enter grade 3: 96
+
 Student added successfully!
 ```
 
 ---
 
-## 📋 View Students
+## View All Students
 
 ```text
-Name: Juan Dela Cruz
-Grades: 80, 85, 90
-Average: 85.00
+View Students
+
+Name: Yuwan Andrei Gregorio
+Grades: 99, 98, 96
+Average: 97.67
 ```
 
 ---
 
-## 📊 Class Average
+## Class Average
 
 ```text
+Class Average
+
 ===== CLASS AVERAGE =====
-Overall Average Grade: 87.50
+
+Overall Average Grade: 97.67
 ```
 
 ---
 
-## 🏆 Highest Grade
+## Highest Grade
 
 ```text
+Highest Grade
+
 ===== HIGHEST GRADE =====
-Top Student: Maria Santos
-Highest Grade: 98
+
+Top Student: Yuwan Andrei Gregorio
+
+Highest Grade: 99
 ```
 
 ---
 
-## ❌ Exit
+## Exit
 
 ```text
 Exiting program...
 Goodbye!
 ```
 
+## Input Validation (when user inputs string)
+'''text
+Invalid option. Please try again.
+'''
